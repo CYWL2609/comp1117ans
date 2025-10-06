@@ -8,8 +8,9 @@ def perfectNumber(n):
     #print(sum)
     print(sum == n)
 
-cont = "dummy"
-while (cont != 'N'):
+cont = 'Y'
+while (cont == 'Y'):
     n = int(input())
     perfectNumber(n)
+
     cont = input()
